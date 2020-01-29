@@ -5,6 +5,8 @@ output: html_document
 
 ```{r setup, include=FALSE}
 knitr::opts_chunk$set(echo = TRUE)
+library(tidyverse)
+```
 ```
 
 ## R Markdown
@@ -29,10 +31,6 @@ Note that the `echo = FALSE` parameter was added to the code chunk to prevent pr
 
 #Part 1 ----------------------------
 
-
-```{r setup, include = FALSE}
-library(tidyverse)
-```
 
 The purpose of this file is to present a couple of basic plots using `ggplot`.
 
